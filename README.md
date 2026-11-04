@@ -144,3 +144,28 @@ Before you submit your solution, you need to save your progress with git.
   * Click on + Create Submission. Connect your repository for this lab.
   * For additional information on submitting assignments in CodeGrade: [Getting Started in Canvas](https://help.codegrade.com/for-students/getting-started/getting-started-in-canvas)
 
+## Completed Functionality
+
+### Book
+- Creates a book with a title and page count.
+- Uses a property setter to validate that the page count is an integer.
+- Prints a validation message when an invalid page count is assigned.
+- Provides a `turn_page()` method that prints a page-turning message.
+
+### Coffee
+- Creates a coffee with a size and price.
+- Uses a property setter to accept only Small, Medium, or Large.
+- Prints a validation message when an invalid size is assigned.
+- Provides a `tip()` method that increases the price by 1 and prints a thank-you message.
+
+## Test Results
+
+All 7 tests passed using Python 3.8.13.
+
+To run the tests from the project folder:
+
+```bash
+pipenv run pytest -x
+```
+
+![All 7 tests passing](tests-passed.png)
